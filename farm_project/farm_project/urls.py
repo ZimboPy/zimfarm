@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('farm_app.urls', namespace='farm_app')),
     url(r'^farmer/', include('farmer.urls', namespace='farmer')),
+    #url(r'^accounts/', include('accounts.urls', namespace='accounts')),
 ]
